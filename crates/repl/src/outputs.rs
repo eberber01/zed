@@ -102,7 +102,7 @@ impl ImageView {
         });
     }
 
-    fn clipboard_content(&self, cx: &WindowContext) -> Option<ClipboardItem> {
+    fn clipboard_content(&self, _cx: &WindowContext) -> Option<ClipboardItem> {
         Some(self.clipboard_content.clone())
     }
 }
